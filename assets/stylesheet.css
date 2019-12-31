@@ -19,8 +19,6 @@ a:link, a:visited, a:active {
 }
 #main {
   position: relative;
-  width: 1200px;
-  left: 50%;
-  margin: -0px -600px;
+  width: 100%;
   text-align: center;
 }
