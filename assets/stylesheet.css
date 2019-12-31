@@ -1,1 +1,26 @@
-
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+html, body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body {
+  position: relative;
+  background: #0a0a0e;
+  height: 100%;
+  width: 100%;
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+	font-size: 20px;
+	color: white;
+}
+a:link, a:visited, a:active {
+ color:#ffffff;
+ text-decoration:none
+}
+#main {
+  position: relative;
+  width: 1200px;
+  left: 50%;
+  margin: -0px -600px;
+  text-align: center;
+}
