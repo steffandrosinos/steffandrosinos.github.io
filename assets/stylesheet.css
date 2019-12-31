@@ -12,13 +12,39 @@ body {
   text-align: left;
 	font-size: 20px;
 	color: white;
+  margin: 0px;
 }
 a:link, a:visited, a:active {
  color:#ffffff;
  text-decoration:none
 }
+@-webkit-keyframes anim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+}
+@-moz-keyframes anim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+}
+@-o-keyframes anim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+}
+@keyframes anim {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+}
 #main {
   position: relative;
   width: 100%;
   text-align: center;
+  font-size: 13vw;
+  background: linear-gradient(90deg, #80ffdb, #a600ff);
+  background-size: 200% 100%;
+  -webkit-animation: anim 20s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-animation: anim 20s ease infinite;
+  -o-animation: anim 20s ease infinite;
+  animation: anim 20s ease infinite;
 }
