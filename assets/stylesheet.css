@@ -36,9 +36,11 @@ a:link, a:visited, a:active {
 }
 #main {
   position: relative;
-  width: 100%;
+  width: 1600px;
+  left: 50%;
+  margin: -0px -800px;
   text-align: center;
-  font-size: 13vw;
+  font-size: 170px;
   background: linear-gradient(90deg, #80ffdb, #a600ff);
   background-size: 200% 100%;
   -webkit-animation: anim 20s ease infinite;
@@ -47,4 +49,16 @@ a:link, a:visited, a:active {
   -moz-animation: anim 20s ease infinite;
   -o-animation: anim 20s ease infinite;
   animation: anim 20s ease infinite;
+}
+
+@media screen and (max-width: 1600px) {
+ 
+  #main {
+    width: 100%;
+    font-size: 10.6vw;
+    left: 0%;
+    margin: 0px;
+  }
+
+
 }
