@@ -84,6 +84,7 @@ a:link, a:visited, a:active {
 #main {
     position: relative;
     width: 1600px;
+    height: 90%;
     top: 50px;
     left: 50%;
     margin: -0px -800px;
@@ -102,8 +103,41 @@ a:link, a:visited, a:active {
     font-size: 170px;
 }
 
+#github {
+    position: relative;
+    width: 100%;
+    top: 30px;
+    color: #fff;
+    transition: .5s ease;
+}
+
+    #github:hover {
+        background: linear-gradient(90deg, #80ffdb, #a600ff);
+        background-size: 200% 50%;
+        -webkit-animation: anim 20s ease infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-animation: anim 5s ease infinite;
+        -o-animation: anim 5s ease infinite;
+        animation: anim 5s ease infinite;
+        transition: .5s ease;
+    }
+
+#github_logo {
+    position: relative;
+    left: 50%;
+    margin: -0px -28px;
+    font-size: 60px;
+}
+
+#github_text {
+    text-align: center;
+    font-size: 24px;
+}
+
 #projects {
     position: relative;
+    top: 60px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -140,7 +174,6 @@ i {
     top: 25px;
 }
 
-
 @media screen and (max-width: 1600px) {
     #main {
         width: 100%;
@@ -155,6 +188,6 @@ i {
     }
 
     #name {
-        font-size: 13.48vw;
+        font-size: 12.31vw;
     }
 }
