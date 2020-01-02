@@ -114,8 +114,8 @@ a:link, a:visited, a:active {
 #proj {
     position: relative;
     width: 250px;
-    height: 170px;
-    margin: 10px;
+    height: auto;
+    margin: 20px;
     text-align: center;
 }
 
