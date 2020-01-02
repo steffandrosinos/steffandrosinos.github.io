@@ -142,12 +142,12 @@ a:link, a:visited, a:active {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: top;
 }
 
 #proj {
     position: relative;
-    width: 250px;
+    width: 280px;
     height: auto;
     margin: 20px;
     text-align: center;
